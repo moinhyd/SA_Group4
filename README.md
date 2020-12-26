@@ -8,7 +8,7 @@
 
 
 
-_Steps to configure email :- 
+__Steps to configure email :- 
 
 * Read application.properties of counter C.
 * Update your email and password there.
