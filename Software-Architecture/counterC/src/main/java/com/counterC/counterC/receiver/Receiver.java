@@ -54,7 +54,7 @@ public class Receiver {
 
     private void sendEmail(String message) throws UnsupportedEncodingException {
         final Email email = DefaultEmail.builder()
-                .from(new InternetAddress(fromEmail, "MOIN"))
+                .from(new InternetAddress(fromEmail, "MD MOINUDDIN"))
                 .to(Lists.newArrayList(new InternetAddress(
                         emails.get(0), "Alert")))
                 .subject(message)
